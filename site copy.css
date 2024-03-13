@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+}
+
+.header{
+    background-color: #FF7C75;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    color: aliceblue;
+}
+
+.header_menu{
+    display: flex;
+    gap: 30px;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.container_introdução{
+    max-width: 1200px;
+    padding: 40px 20px;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    align-items: flex-start;
+    gap: 100px;
+  font-family: "Ojuju", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav {
+    align-self: center;
+}
+
+.Ingredientes{
+    text-align: left;
+}
+
+img{
+    border-radius: 10px 10px;
+}
+
+.principal{
+    color: #FF7C75;
+    font-family: "Madimi One", sans-serif;
+    margin-left: 25px
+}
+
+.menu_introducao{
+    color: #FF7C75;
+    font-family: "Madimi One", sans-serif;
+}
+
+.Subtitulo{
+    color: #FCCE3F;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 35px;
+}
+
+.conteudo{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 30px 20px;
+    font-family: "Ojuju", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+hr{
+    margin: 5px 270px;
+}
+
+footer{
+    background-color: #FF7C75;
+}
+
+.pesite{
+    color: aliceblue;
+    font-family: "Madimi One", sans-serif;
+    text-align: center;
+}
+
+.final{
+    font-family: "Ojuju", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    margin: 30px 20px;
+}
+
+.tudo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
